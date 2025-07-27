@@ -20,7 +20,8 @@ public class HolaMundoControlador {
     public ResponseEntity<Map<String, Object>> analisisEndpoint() {
         Map<String, Object> respuesta = new HashMap<>();
         respuesta.put("servicio", "API Analisis");
-        respuesta.put("mensaje", "Hola Mundo desde el servicio de análisis");
+        respuesta.put("mensaje", "Hola Mundo desde el servicio de vehiculos");
+        
         respuesta.put("estado", "activo");
         respuesta.put("version", "1.0.0");
         respuesta.put("timestamp", System.currentTimeMillis());

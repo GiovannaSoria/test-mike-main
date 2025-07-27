@@ -9,10 +9,10 @@ on:
 env:
   AWS_REGION: us-east-2
   ECR_REGISTRY: 309114413968.dkr.ecr.us-east-2.amazonaws.com
-  ECR_REPOSITORY: banquito-prestamos-analisis
+  ECR_REPOSITORY: banquito-prestamos-vehiculos
   ECS_CLUSTER: banquito-cluster
-  ECS_SERVICE: banquito-prestamos-analisis
-  CONTAINER_NAME: analisis-container
+  ECS_SERVICE: banquito-prestamos-vehiculos
+  CONTAINER_NAME: vehiculos-container
 
 jobs:
   deploy:
