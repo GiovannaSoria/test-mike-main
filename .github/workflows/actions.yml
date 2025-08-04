@@ -1,4 +1,4 @@
-name: Deploy Prestamos Analisis to AWS
+name: Deploy Prestamos CuentasConfiguracion to AWS
 
 on:
   push:
@@ -8,11 +8,11 @@ on:
 
 env:
   AWS_REGION: us-east-2
-  ECR_REGISTRY: 309114413968.dkr.ecr.us-east-2.amazonaws.com
-  ECR_REPOSITORY: banquito-prestamos-vehiculos
+  ECR_REGISTRY: 425784381978.dkr.ecr.us-east-2.amazonaws.com
+  ECR_REPOSITORY: banquito-prestamos-analisis
   ECS_CLUSTER: banquito-cluster
-  ECS_SERVICE: banquito-prestamos-vehiculos
-  CONTAINER_NAME: vehiculos-container
+  ECS_SERVICE: banquito-prestamos-analisis
+  CONTAINER_NAME: prueba-container
 
 jobs:
   deploy:
